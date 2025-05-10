@@ -1,1 +1,125 @@
+moalk@Muhammed-Ayman MINGW64 /d/assi2 info/log-analysis
+$ chmod +x log_analysis.sh
 
+moalk@Muhammed-Ayman MINGW64 /d/assi2 info/log-analysis
+$ ./log_analysis.sh access.log
+📊 ========== LOG FILE ANALYSIS ==========
+
+🔹 Request Counts
+Total Requests: 10365152
+GET Requests: 10190005
+POST Requests: 139155
+
+🔹 Unique IP Addresses
+Total Unique IPs: 258606
+Top 5 GET requests by IP:
+ 353483 66.249.66.194
+ 314522 66.249.66.91
+  88332 66.249.66.92
+  80201 151.239.241.163
+  41530 104.222.32.91
+Top 5 POST requests by IP:
+  11712 151.239.241.163
+   4996 91.99.30.32
+   4091 91.99.47.57
+   3461 5.78.190.233
+   1095 5.117.116.238
+
+🔹 Failure Requests
+Failures: 177424 (1.71%)
+
+🔹 Most Active IP
+ 353483 66.249.66.194
+
+🔹 Daily Request Averages
+Total Days: 5
+Average Requests/Day: 2073030.40
+
+🔹 Days with Most Failures
+  45293 26/Jan/2019
+  37237 23/Jan/2019
+  33487 22/Jan/2019
+  32657 24/Jan/2019
+  28750 25/Jan/2019
+
+🔹 Requests per Hour
+Hour 00: 344800 requests
+Hour 01: 227507 requests
+Hour 02: 126406 requests
+Hour 03: 79133 requests
+Hour 04: 76481 requests
+Hour 05: 70671 requests
+Hour 06: 92867 requests
+Hour 07: 184633 requests
+Hour 08: 381551 requests
+Hour 09: 563883 requests
+Hour 10: 672849 requests
+Hour 11: 731595 requests
+Hour 12: 725359 requests
+Hour 13: 724636 requests
+Hour 14: 692415 requests
+Hour 15: 649664 requests
+Hour 16: 575790 requests
+Hour 17: 548896 requests
+Hour 18: 558690 requests
+Hour 19: 566249 requests
+Hour 20: 478688 requests
+Hour 21: 415445 requests
+Hour 22: 462359 requests
+Hour 23: 414585 requests
+
+🔹 Status Codes Breakdown
+9579824 200
+ 340228 304
+ 199835 302
+ 105011 404
+  67552 301
+  50852 499
+  14266 500
+   5634 403
+    798 502
+    323 401
+    319 400
+    112 408
+    103 504
+     17 186
+     14 166
+      6 405
+      3 206
+
+🔹 Most Active IPs by Method
+GET:
+ 353483 66.249.66.194
+POST:
+  11712 151.239.241.163
+
+🔹 Failure Patterns by Hour
+Hour 19: 14852 failures
+Hour 18: 13795 failures
+Hour 14: 11181 failures
+Hour 15: 11094 failures
+Hour 12: 10824 failures
+Hour 13: 10623 failures
+Hour 16: 10444 failures
+Hour 11: 10357 failures
+Hour 17: 9553 failures
+Hour 10: 9241 failures
+Hour 23: 7807 failures
+Hour 20: 7794 failures
+Hour 09: 7794 failures
+Hour 22: 7364 failures
+Hour 21: 7025 failures
+Hour 00: 6038 failures
+Hour 08: 5061 failures
+Hour 01: 4225 failures
+Hour 07: 2930 failures
+Hour 02: 2402 failures
+Hour 06: 2039 failures
+Hour 04: 1874 failures
+Hour 05: 1693 failures
+Hour 03: 1414 failures
+
+✅ Analysis Complete.
+
+moalk@Muhammed-Ayman MINGW64 /d/assi2 info/log-analysis
+$
